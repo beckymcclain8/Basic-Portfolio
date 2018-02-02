@@ -1,0 +1,300 @@
+#background {
+    border: 1px solid yellow;
+    background: #cac6c6;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    clear: both;
+    display: -webkit-inline-box;
+    position: absolute;
+    z-index: -1;
+  }
+
+#content {
+    background:#ffffff;
+    border: #dddddd;
+    border-style: solid;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-left: 350px;
+    margin-right: 20px;
+    color:#777777;
+    display: inline-block;
+    top: 150px;
+    left: 350px;
+    width: 650px;
+    float: left;
+    z-index: 1;
+}
+
+.container {
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    border: #dddddd;
+    border-style: solid;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 30px 50px 50px;
+    position: fixed;
+    top: 150px;
+    left: 350px;
+    width: 650px;
+    float: left;
+
+saved 6:22
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/images/dust_scratches.png)
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: block;
+}
+
+.clearfix:after {
+    clear: both;
+}
+#name {
+    background: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    display: block;
+    margin-left: 350px;
+    padding:20px;
+    color: white;
+    font-weight: bold;
+    float: left; 
+}
+
+#background {
+    border: 1px solid yellow;
+    background: #cac6c6;
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    overflow: auto;
+  }
+
+#responsive-image {
+    width:25%; height: auto;
+    float: left;
+    margin-right: 10px;
+}
+
+#port-image {
+    width:35%; height: auto;
+    float: left;
+    margin: 20px;
+}
+
+#media {
+    width: 40x;
+    height: 40px;
+}
+
+a {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+ }
+
+#links {
+    padding: 20px;
+    color: #333;
+    font-size: large;
+    margin: 10px;
+    background: #ffffff;
+    display: block;
+    float: right;
+}
+
+#content {
+    position: absolute;
+    background:#ffffff;
+    border: #dddddd;
+    border-style: solid;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-right: 20px;
+    color:#777777;
+    display: block;
+    top: 150px;
+    left: 350px;
+    width: 650px;
+    float: left;
+    z-index: 1;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 30px 0px 30px 0px;
+    border-bottom: 3px solid #e7e5e5;
+}
+    
+h3 {
+    color: #4aaaa5;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #e7e5e5;
+}
+
+#sidebar {
+    position:absolute;
+    top: 150px;
+    right: 350px;
+    background:#ffffff;
+    border: #dddddd;
+    border-style: solid;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-left: 20px;
+    color:  #4aaaa5;
+    width: 270px;
+    display: block;
+    float: left;
+}
+
+#footer {
+    clear: both;
+    overflow: auto;
+    background: #666666;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:  #4aaaa5;
+}
+
+.container {
+    position: absolute;
+    background:#ffffff;
+    border: #dddddd;
+    border-style: solid;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-right: 20px;
+    color:#777777;
+    display: block;
+    top: 150px;
+    left: 350px;
+    width: 650px;
+    float: left;
+    z-index: 1;
+}
+
+#portfolio {
+    position: absolute;
+    background:#ffffff;
+    border: #dddddd;
+    border-style: solid;
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    padding: 20px;
+    margin-right: 20px;
+    color:#777777;
+    display: block;
+    top: 150px;
+    left: 350px;
+    width: 650px;
+    float: left;
+    z-index: 1;
+}
+
+<!DOCTYPE html>
+<head>
+    <link href="reset.css" type="text/css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    
+    <title>Becky McClain</title>
+</head>
+
+
+        <section id="name">
+
+            <h1>Becky McClain</h1>
+
+        </section>
+    
+        <section id="links">
+
+                <a href="index.html">&emsp; About &emsp; |</a>
+                <a href="portfolio.html">&emsp; Portfolio &emsp; |</a>
+                <a href="contact.html">&emsp; Contact&emsp;</a>
+       
+        </section>
+    
+    <body>      
+    <section id="background" class= "clearfix">
+        <div id="content">
+           <h2>About Me</h2>
+            
+            <img src="./assets/images/Becky.jpg" alt= "Becky McClain" id="responsive-image">
+
+            <p>My name is Becky McClain.  I received my B.S. in Elementary Education from Northern Illinois University.  I moved to Arizona in 2005 and got my first teaching position that same year.  I taught 6th grade math for one year in Coolidge, AZ.  After a year of traveling that far each day, I decided to look for a job closer to home! I was fortunate to find a position at Sanborn Elementary school in Chandler teaching 5th grade. I taught there for nine years.</p>
+            <br>
+            <p>I got married in 2007 and went back to school at ASU in 2009 to receive my Masters in Curriculum and Instruction in math education.  A year later we had our fist kiddo... Riley Rose!  Our lives were forever changed...  We have since then added two more kids to our family, Cooper and Henley. Yes I was one of those crazy people that had three kids under the age of three...</p>
+            <br>
+            <p>Life started to feel a little too busy at that point. I decided my heart was no longer in teaching and that I wasn't giving my best to my kids and my home life.  So after a lot of thought and debate I decided to leave teaching.  It was a shock as I never considered a career outside of teaching.</p>
+            <br>
+            <p>I quickly found a part time job working for a fund raising company.  It was perfect for this stage in my life!  I was still connected with schools, I was able to spend a good amount of time with my kids, and I still felt like I was contributing to my family!</p>
+            <br>
+            <p>Within a few years life started feeling a little boring... like I wasn't doing enough, or living up to the potential I have, so I started thinking about what else is out there... and that's when I found coding!</p>
+            <br>
+            <p>I spent a little time playing around with codeacademy, and the next thing I knew I found this bootcamp and it felt like the perfect opportunity to try something exciting and new!</p>
+            <br>
+            <p>So here I am...  </p>
+        </div>
+    
+    <div id="sidebar">
+
+        <h3>Connect with Me</h3>
+        <br>
+
+        <a href="https://linkedin.com/in/becky-mcclain-a22b73b5" target="_blank">&emsp;<img src="./assets/images/linkedin.png" alt="LinkedIn Profile" id="media">&emsp;</a>
+        <a href="https://github.com/beckymcclain8" target="_blank">&emsp;<img src="./assets/images/github.png" alt="GitHub Profile" id="media">&emsp;</a>
+        <a href="https://stackoverflow.com/users/9252872/bmcclain" target="_blank">&emsp;<img src="./assets/images/stackoverflow.png" alt="StackOverflow Profile" id="media"></a>
+    </div>
+
+    </section>
+
+    <div id="footer">
+            <p>Copyright 2018 Becky McClain</p>
+    </div>
+
+</body>
+</html>
