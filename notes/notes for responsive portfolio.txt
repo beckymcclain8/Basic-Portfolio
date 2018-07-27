@@ -1,0 +1,94 @@
+
+@media screen and (max-width: 768px) {
+
+    #page-wrap {
+        max-width: 760;
+    }
+
+    #top, #content, #sidebar, #portfolio, .container, #footer {
+        width: 100%;
+        max-width: 730px;
+    }
+
+    #sidebar, #content, #name, #links, #footer, #portfolio, .container, #top {
+        margin: 20px 12px 20px 12px;
+    }
+
+    #top {
+        height: 100px;
+        margin: 0px;
+    }
+
+    #responsive-image {
+        width: 75%;
+        max-width: 350px;
+        height: auto;
+        padding: 10px;
+
+    }
+
+    #footer {
+        position: static;
+    }
+
+    h3 {
+        text-align: left;
+    }
+
+    .port-image {
+        bottom: 2px;
+        width: 40%;
+        height: auto;
+        padding: 10px;
+        margin: 0;
+        float: left;
+    }
+
+    .Harry {
+        bottom: 2px;
+        margin:20px 0px 20px 10px;
+        padding: 10px 10px;
+        text-align: center;
+        width: 200px;
+    }
+
+}
+    @media screen and (max-width: 980px) {
+        
+        #page-wrap {
+            max-width: 975;
+        }
+
+        #top, #footer {
+            width: 100%;
+        }
+
+        #content, #portfolio, .container {
+            width: 65%;
+            max-width: 600px;
+        }
+
+        #sidebar {
+            width: 30%;
+            max-width: 300px;
+        }
+}
+
+    .port-image {
+        bottom: 2px;
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .hp {
+        width:100%;
+    }
+
+    .Harry {
+        bottom: 2px;
+        margin:20px 0px 10px 0px;
+        padding: 10px 0px;
+        text-align: center;
+        width:100%;
+    }
